@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="PFA Reports">
+    <database id="file" name="File">
+        <link name="Link 1">C:\test.pdf</link>
+    </database>
+    <database id="folder" name="Source Folder">
+        <link name="Link 2">C:\test.pdf</link>
+        <link name="Link 3">C:\test1.pdf</link>
+    </database>
+</project>
