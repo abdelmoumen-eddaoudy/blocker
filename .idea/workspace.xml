@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96fc7fd2-a6f9-461e-b55d-daa0a818780f" name="Changes" comment="Cleaning and reformatting the `POM`" />
+    <list default="true" id="96fc7fd2-a6f9-461e-b55d-daa0a818780f" name="Changes" comment="Not important">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +17,7 @@
     <option name="BRANCH" value="origin/main" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
         <option value="Abdelmoumen ED-Daoudy &lt;94645200+abdelmoumen-eddaoudy@users.noreply.github.com&gt;" />
@@ -21,7 +25,6 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="MIXED" />
-    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="ProjectId" id="22yOAsJXzWU0OobMrLQRZL6QWUP" />
   <component name="ProjectViewState">
@@ -36,7 +39,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.31409544" />
     <property name="project.structure.side.proportion" value="0.4158576" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="Run" type="Application" factoryName="Application">
@@ -95,7 +98,28 @@
       <option name="project" value="LOCAL" />
       <updated>1640808268606</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Cleaning and reformatting the `POM`">
+      <created>1640809162291</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1640809162291</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Cleaning and reformatting the `POM`">
+      <created>1640809326309</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1640809326309</updated>
+    </task>
+    <task id="LOCAL-00007" summary="not important">
+      <created>1640809586261</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1640809586261</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,7 +139,8 @@
     <MESSAGE value="Test" />
     <MESSAGE value="Test commit" />
     <MESSAGE value="Cleaning and reformatting the `POM`" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleaning and reformatting the `POM`" />
+    <MESSAGE value="Not important" />
+    <option name="LAST_COMMIT_MESSAGE" value="Not important" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
