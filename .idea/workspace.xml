@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Blocker:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96fc7fd2-a6f9-461e-b55d-daa0a818780f" name="Changes" comment="Fixing display issue with 'About' view">
+    <list default="true" id="96fc7fd2-a6f9-461e-b55d-daa0a818780f" name="Changes" comment="fixing application property in `POM`">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Blocker_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ensaf/blocker/AboutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ensaf/blocker/AboutController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ensaf/blocker/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ensaf/blocker/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/ensaf/blocker/about-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/ensaf/blocker/about-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/ensaf/blocker/about-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/ensaf/blocker/about-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,10 +50,11 @@
     <property name="Repository.Attach.Sources" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.31409544" />
-    <property name="project.structure.side.proportion" value="0.4158576" />
+    <property name="project.structure.proportion" value="0.104948804" />
+    <property name="project.structure.side.proportion" value="0.116412215" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RunManager">
@@ -138,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641056693554</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fixing application property in `POM`">
+      <created>1641057526580</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1641057526580</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,7 +180,8 @@
     <MESSAGE value="Fixing the runtime error with `JMetro` dependencies" />
     <MESSAGE value="Fixing display issues with the 'about' view" />
     <MESSAGE value="Fixing display issue with 'About' view" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing display issue with 'About' view" />
+    <MESSAGE value="fixing application property in `POM`" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing application property in `POM`" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

@@ -1,12 +1,5 @@
 package org.ensaf.blocker;
 
-import org.ensaf.blocker.engine.Paragraph;
-import org.ensaf.blocker.engine.Plagiarism;
-import org.ensaf.blocker.xml.Database;
-import org.ensaf.blocker.xml.Link;
-import org.ensaf.blocker.xml.Project;
-import org.ensaf.blocker.xml.XMLHandler;
-
 import javafx.application.Platform;
 import javafx.collections.ListChangeListener;
 import javafx.collections.ObservableList;
@@ -24,25 +17,25 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.web.WebEngine;
-import javafx.stage.*;
 import javafx.scene.web.WebView;
-
-
+import javafx.stage.*;
 import jfxtras.styles.jmetro.JMetro;
 import jfxtras.styles.jmetro.Style;
-
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.text.PDFTextStripper;
-
+import org.ensaf.blocker.engine.Paragraph;
+import org.ensaf.blocker.engine.Plagiarism;
+import org.ensaf.blocker.xml.Database;
+import org.ensaf.blocker.xml.Link;
+import org.ensaf.blocker.xml.Project;
+import org.ensaf.blocker.xml.XMLHandler;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
-
 import org.xml.sax.SAXException;
 
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
-
 import java.io.File;
 import java.io.IOException;
 import java.net.URL;
@@ -51,6 +44,7 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.ResourceBundle;
+
 
 public class MainController implements Initializable {
     @FXML
@@ -241,7 +235,8 @@ public class MainController implements Initializable {
         if (aboutStage == null) {
             Stage mainStage = (Stage) mainPane.getScene().getWindow();
             aboutStage = new Stage();
-            loadStageAsDialog(aboutStage, "New Project", "about-view.fxml", mainStage);
+
+            loadStageAsDialog(aboutStage, "About", "about-view.fxml", mainStage);
         } else {
             aboutStage.show();
         }
@@ -345,7 +340,7 @@ public class MainController implements Initializable {
         protected @NotNull Task<ArrayList<ArrayList<Plagiarism>>> createTask() {
             return new Task<>() {
                 @Override
-                protected ArrayList<ArrayList<Plagiarism>> call() throws Exception {
+                protected ArrayList<ArrayList<Plagiarism>> call() {
                     ObservableList<Database> databases = project.getDatabases();
                     ArrayList<ArrayList<Plagiarism>> result = new ArrayList<>();
                     File file1 = databases.get(0).getLinks().get(0).getFile();
